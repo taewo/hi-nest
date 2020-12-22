@@ -19,6 +19,7 @@ export class MoviesService {
 
   deleteOne(id: string) {
     console.log('test')
+    console.log('test')
     this.getOne(id)
     this.movies = this.movies.filter(movie => movie.id !== +id)
   }
